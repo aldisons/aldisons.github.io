@@ -1,0 +1,54 @@
+body{
+	margin: 0;
+	font-family: 'Mali', cursive;
+}
+#top-nav span{
+	margin-right: 0.5em;
+}
+#main-nav{
+	border-top: 5px double #555555;
+	border-bottom: 5px double #555555;
+}
+#vijesti-prev, #intervjui-prev, #najnovije-prev{
+    padding: 1em;
+}
+#vijesti-prev h3, #intervjui-prev h3, #najnovije-prev h3{
+	padding: 0.3em;
+	margin-bottom: 1.2em;
+	border-top: 1px solid gray;
+	border-bottom: 4px double gray;
+}
+.card-deck{
+	margin-top: 0.5em;
+}
+#najnovije-prev button{
+	margin-top: 1.5em;
+}
+footer{
+	margin-top: 2em;
+	color: #212529;
+	border-top: 2px solid #212529;
+	border-bottom: 2px solid #212529;
+}
+footer a{
+	color: #212529;
+}
+footer .row:first-child{
+	padding: 3em;
+}
+#bottom-line{
+	border-top: 1px solid #212529;
+	text-align: center;
+	font-size: small;
+}
+.bg-silver{
+	background-color: #c0c0c0;
+}
+.bg-kockavica{
+	background-color: #cc99cc;
+}
+.btn-outline-dark:hover {
+  color: #fff;
+  background-color: #cc99cc;
+  border-color: #343a40;
+}
